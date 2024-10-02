@@ -1,0 +1,11 @@
+In Rust, char is a primitive type.
+
+Characters in Rust are called char.
+Every char has a number.
+The list of numbers is called Unicode.
+The characters used most (called ASCII) are represented by numbers less than 256, and they can fit into a u8.
+This means that Rust can safely "cast" a u8 into a char, using as.
+char is always one character and uses ' ' (single quotes).
+All chars use 4 bytes of memory, since 4 bytes are enough to hold any kind of character.
+
+Represent a single Unicode scalar value, such as letters, digit, or symbol.
