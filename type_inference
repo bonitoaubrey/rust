@@ -1,0 +1,20 @@
+Type inference is the process by which the Rust compiler automatically determines the type of a variable based on its usage.
+
+Rust is a statically typed language, which means it must know the type of every variable at compile time.
+However Rust does not require explicit type annotations for every variable.
+When the Rust compiler encounters a variable declaration whitout an explicit type annotation, it will analyze the code to determine the type of the variable.
+It does this by looking at the following:
+    The type of the value assigned the the value
+    The types of the operations performed on the variable
+    The types of the functions the variable is passed to
+Using this information, the compiler can infer the type of the variable.
+But sometimes you need to tell it, usually for two reasons:
+    You are doing something very complex, and the compiler can't determine the type you want.
+    You simply want a different type.
+
+You don't need to write explicit type annotations for every variable, which makes your code more concise and easier to read.
+You can focus on the logic of your code, making it easier to understand.
+Type inference can help catch type-related errors at compile time, reducing the likelihood or runtime errors.
+
+To specify a type, add a colon after the variable name.
+For numbers, you can add the type after the number. 10u8
