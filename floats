@@ -1,4 +1,4 @@
-Floats are numbers with decimal points.
+Floats are primitive types that represent numbers with decimal points.
 
 Rust supports two types of floating-point numbers:
     f32: is a 32-bit floating-point number and has precision of about 7 decimal places.
