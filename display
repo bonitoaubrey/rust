@@ -1,0 +1,4 @@
+Simple variables in Rust can be printed with {} inside println!.
+This is called Display printing.
+
+More types have Debug than Display, so if a type you want to print can't print with Display, you can try Debug.

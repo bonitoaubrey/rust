@@ -4,7 +4,6 @@ Rust supports two types of floating-point numbers:
     f32: is a 32-bit floating-point number and has precision of about 7 decimal places.
     f64: is a 64-bit floating-point number and has a precision of about 15 decimal places.
 By default, it will choose f64.
-Only floats of the same type can be used together.
 Keep in mind that floating-point numbers can have rounding errors due to their binary representatin.
 This means that some decimal numbers cannot be represented exactly as floating-point numbers, which can lead to small errors in calculations.
 
@@ -14,6 +13,5 @@ Use f64 when you need high precision, such as in scientific simulations or finan
 5.5
 5.0
 5.
-
 
 Used to represent decimal numbers.

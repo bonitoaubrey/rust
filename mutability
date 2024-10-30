@@ -1,0 +1,6 @@
+Mutability is ability of a value to change after it's created.
+
+By default, variables in Rust are immutable.
+You cannot change the type of a variable even if you declare it as mut.
+
+To make a variable that you can change, ad mut after let.

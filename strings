@@ -1,0 +1,6 @@
+Rust has two main types of strings: String and &str.
+&str is a simple string. It's just a pointer to the data plus the length. It's also called a string slice.
+String is a bit more complicated string. It may be a bit slower, but it has more functionality.
+A String is a pointer with data on the heap.
+A String owns its data.
+Both &str and String are encoded with UTF-8.

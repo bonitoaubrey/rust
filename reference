@@ -1,0 +1,18 @@
+References are a temporary borrow of a value that allow you to access the value without taking ownership of it.
+
+Creating a reference: When you create a reference to a value, you use the & symbol before the value.
+Borrowing: When you crate a reference, you are borrowing the value for a limites scope.
+The borrow checker ensures that the reference is valid for the duration of the borrow.
+Immutable references: By default, references in Rust are immutable.
+You can't modify the value through an immutable reference.
+Mutable references: You can create a mutable reference by using the &mut keyword.
+Reference lifetime: References have a lifetime, which is the scope for which the reference is valid.
+The borrow checker ensures that the reference is valid for its lifetime.
+Aliasing: References can alias each other, meaning multiple references can point to the same value.
+However, if one reference is mutable, the others must be immutable.
+Dereferencing: You can dereference a reference using the * operator to get the underlying value.
+
+Function argument: When passing values to function, you often want to avoid taking ownership of the value.
+Instead, you can pass a reference to the value as an argument.
+
+We use & to create a reference.

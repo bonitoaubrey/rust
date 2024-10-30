@@ -1,4 +1,4 @@
-Integers are whole numbers with no decimal point.
+Integers are primitive types that represent whole numbers with no decimal point.
 
 There are two types of integers: signed integers and unsigned integers.
 Signed means + (plus sign) and - (minus sign). Signed integers can be positive or negative or zero.
