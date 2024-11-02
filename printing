@@ -1,0 +1,16 @@
+\n will make a new line
+\t will make a tab
+inside a single "" you can write over multiple lines.
+if you want to print character like \n, you can add an extra \ (a backslash).
+Sometimes you end up using too many escape characters and just want Rust to print a string as you see it.
+    To do this, you can add r# to the beginning and # to the end.
+    If you need to print text with a # inside, you can start with r## and end with ##.
+It you want to print the bytes of a &str or a char, you can write b before the string.
+You can alose put b and r together if you need.
+use{:p} to print the pointer address.
+{:b} for vinary
+{:x} for hexadecimal
+{:o} for octal format
+You can add numbers inside {} to change the order of what gets printed.
+You can use a name instead of an index value, you have to use the = sign to indicate which name applies to which value.
+{variable:padding alignment minimum.maximum}

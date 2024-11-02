@@ -8,7 +8,7 @@ Keep in mind that floating-point numbers can have rounding errors due to their b
 This means that some decimal numbers cannot be represented exactly as floating-point numbers, which can lead to small errors in calculations.
 
 Use f32 when you need to store a large number of floating-point numbers and don't need high precision.
-This can help reduce memory usage.
+    This can help reduce memory usage.
 Use f64 when you need high precision, such as in scientific simulations or financial calculations.
 5.5
 5.0

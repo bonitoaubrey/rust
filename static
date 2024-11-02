@@ -1,0 +1,4 @@
+static has a fixed memory location.
+It might not be created at compile time.
+
+You write it with ALL CAPITAL LETTERS and usually outside of main so that it can live for the whole program.

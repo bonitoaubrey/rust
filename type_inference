@@ -1,4 +1,4 @@
-Type inference is the ability of the compiler to automatically determine the type of a variable, function return value, or expression based on the context in which it is used, without requiring explicit type annotations.
+Type inference is feature that allows the compiler to automatically determine the type of a variable, function return value, or expression based on the context in which it is used, without requiring explicit type annotations.
 
 Rust is a statically typed language, which means it must know the type of every variable at compile time.
 However Rust does not require explicit type annotations for every variable.

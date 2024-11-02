@@ -1,0 +1,24 @@
+The match statement in Rust is a control flow construction that allows you to specify multiple alternatives and execute different blocks of code based on the value of an expression.
+
+The match statement takes an expression as input and compares its value to a series of patterns.
+Each pattern is associated with a block of code, and when the match is found, the corresponding block of code is executed.
+If no match is found, a default block of code can be executed if specified.
+Rust will make you match for every possible situation and won't compile the code otherwise.
+Each line is called an arm.
+Each arm of a match has to return the same type.
+A match statement always stops when it finds a match and doesn't check the rest.
+
+We use match in Rust when we need to handle different cases or alternative based on the value of an expression, such as:
+    Handling errors of different error codes.
+    Parsing data or JSON responses.
+    Implement state machines or finite state automata.
+    Handling different types of data or variants of an enum.
+
+You write match, then the name of the item to match against, and then a {} code block.
+You can use a tuple to match on more complicated patterns.
+Write the pattern on the left and use a => (fat arrow) to say what to do when the pattern also matches.
+Put a comma between the arms (not a semicolon).
+You can declare a value with a match.
+You can add _ (underscor) to skip other values.
+    This is sometimes called a wildcard.
+You can use @ to give a name to the value of a match expression, and then you can use it.

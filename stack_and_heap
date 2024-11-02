@@ -1,0 +1,12 @@
+stack is very fast, but heap is not so fast.
+    It's not super slow either, but the stack is usually faster.
+Rust needs to know the size of a variable at compile time.
+    So simple variable can go on the stack because we know their exact size.
+Some types don't known the size at compile time.
+    You put the data in the heap because the heap can have any size of data.
+    And then to find it, a pointers goes on the stack.
+    This is fine because we always know the size of a pointer.
+    So, then the compiler first goes to the pointer, reads the address information, and follows it to the heap where the data is.
+Sometimes you can't even use heap memory.
+    If you are programming in Rust for a small embedded devices, you are going to have to use only stack memory.
+    There is no operating system to ask for heap memory on a small embedded device.

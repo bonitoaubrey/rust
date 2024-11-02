@@ -9,5 +9,5 @@ main() is the function that starts the program.
     So, that means the function is starting withou any variables that it can use.
 After that comes {}, which is called a code block.
     Code block are spaces where code lives.
-    It you start a variable inside a code blick, it will live untill the end of the block.
+    It you start a variable inside a code block, it will live untill the end of the block.
     This is its lifetime.

@@ -1,0 +1,17 @@
+Tuples in Rust is collection of values that can contain a mix of data type and can be stored together in a single unit.
+
+When a tuple is created, Rust infers the type of its elements based on the values assigned to them.
+When you don't return anything in a function, you return an empty typle.
+In Rust empty tuple is called the unit type.
+
+You can use a tuple to create multiple variables at the same time.
+When we need to return multiple values from a function.
+When we need to store a small collection of values together.
+
+Tuples are created using parentheses () and values are separated by commas.
+To access elements of a tuple, we use the dot notation and the index of the element.
+
+Tuples are similar to struct, but unlike structs, tuples do not have named fields.
+While structs are defined with struct keyword and have named fields, tuple are created using parentheses and have indexed fields.
+Structs are more suitable when we need to store larger collections of values with meanningful names.
+Tuples are more suitable when we need to store small collection of values with a simple index-based access.
