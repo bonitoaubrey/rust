@@ -1,3 +1,5 @@
+String is a struct String
+
 String is a bit more complicated string.
 It may be a bit slower, but it has more functionality.
 A String is a pointer with data on the heap.

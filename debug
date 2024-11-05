@@ -1,6 +1,4 @@
 You can thing of Debug printing as printing for the programmer because it usually shows more information - and usually less pretty.
 
-use {:?} of {:#?} for pretty-print.
-
 {:#?} is known as "pretty printing.
 It is the same as Debug with {:?} but prints with different formatting over more lines.

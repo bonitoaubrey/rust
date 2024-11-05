@@ -1,0 +1,5 @@
+In Rust, a collection is a data structure that can store multiple values of the same type, allowing you to work with them as a group.
+
+A collection in Rust is essentially a container that holds multiple elements, and provides methods to manipulate those elements, such as adding, removing, and iterating over them.
+
+They allow us to work with multiple values in a more efficent and organized way than working with individual variables.

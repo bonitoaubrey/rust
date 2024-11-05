@@ -1,0 +1,11 @@
+A while loop is a loop that continues to execute a block of code as long as a certain condition is true.
+
+The while loop checks the condition before executing the code inside the loop.
+If the condition is true, it runs the code, and then checks the condition again.
+This process repeats until the condition becomes false.
+
+When we need to perform a task repeatedly until a certain condition is met.
+They help us write more efficient and concise code by avoiding the need to write the same code multiple times.
+
+for loops iterate over a sequence (like an array or a vector) while
+    while loops continue to execute as long as a condition is true.

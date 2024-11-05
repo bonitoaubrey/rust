@@ -1,0 +1,8 @@
+Methods in Rust is a function that is associated with a type, allowing you to perform actions on values of that type in a more object-oriented way.
+
+When you define a method on a type, Rust generates a special kind of function called a "closure" that has access to the type's fields and other methods.
+When you call a method on a value, Rust creates a new closure that captures the value's fields and passes it to the method's implementation.
+
+Self means the type Self, and self means the variable called self that refers to the object itself.
+When you use a methog, Rust will dereference for you until it reaches the original type.
+The . in a method is called the dot operator, and it does dereferencing for free.
