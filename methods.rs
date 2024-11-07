@@ -1,5 +1,8 @@
 Methods in Rust is a function that is associated with a type, allowing you to perform actions on values of that type in a more object-oriented way.
 
+In Rust, methods are implemented as functions that take a reference to the type they are associated with as their first argument, known as the self parameter.
+When a method is called, the compiler generates code that passes the self reference to the method function, allowing the method to access and modify the type's data.
+Rust ownership system ensures that methods can only access and modify the data of the type they are associated with.
 When you define a method on a type, Rust generates a special kind of function called a "closure" that has access to the type's fields and other methods.
 When you call a method on a value, Rust creates a new closure that captures the value's fields and passes it to the method's implementation.
 

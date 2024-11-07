@@ -1,5 +1,7 @@
-A struct in Rust is a way to group related data together into a single unit, allowing you to create custom data types.
+A struct in Rust is a composite data type that represents a collection of values of different types, stored in a single unit of memory, enabling the creation of complex data structures and objects.
 
+In Rust, s struct is implemented as a contiguous block of memory, where each field is stored in a specific location, and the size of the struct is determined by the sum of the sizes of its fields.
+When a struct is created, Rust allocates memory for it on the stack or heap, depending on the context, and initializes its fields with the provided values.
 When you define a struct, Rust creates a new type that represents a collection of fields, which are essentially variables that are stored together in memory.
 The struct is stored in memory as a contiguous block of bytes, with each field stored in a specific order.
 There are three types of structs.

@@ -1,4 +1,4 @@
-A trait in Rust is way to define a set of methods that a type can implement, allowing you to write reusable and flexible code that can work with multiple types.
+A trait in Rust is a set of methods that a type can implement, allowing you to write reusable and flexible code that can work with multiple types.
 
 When you define a trait, Rust creates a virtual table (vtable) that contains pointers to the implementaions of the trait's methods for each type that implements it.
 Rust uses the vtable to dispatch the correct method implementation for a given type.

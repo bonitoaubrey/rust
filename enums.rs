@@ -7,9 +7,8 @@ Each variant of the enum is assigned a unique integer value, which is used to st
 If an enum doesn't contain any data, then its variants can be cast into an integer.
 enums can have associated values, which are values that are stored along with the enum variant.
 
-enums allow you to define a set of named values that have a specific meaning, making your code more readable and maintainable.
-They also help prevent errors by ensuring that only valid values can be used.
-Use a enum to hold different types inside a collection.
+help prevent errors by ensuring that only valid values can be used.
+hold different types inside a collection.
 
 To use an enum, you define it using the enum keyword, followed by the name of the enum and the variants it can take on.
 To make a choice when using an enum, use the enum name, followed by two :: (colons), and then the name of the variant.

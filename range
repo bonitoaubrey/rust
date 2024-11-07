@@ -1,8 +1,0 @@
-In Rust, a range is a way to specify a sequence of numbers or values that can be iterated over, allowing you to work with a series of values in a concise and expressive way.
-
-.. creates an exclusive range - 0..3 gives you 0, 1, 2.
-..= creates an inclusive range - 0..=3 gives you 0, 1, 2, 3.
-
-Ranges are similar to iterators, but the key difference is that
-    range are a way to specify a sequence of values, while
-    iterators are a way to iterate over a sequence of values.
