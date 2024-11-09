@@ -1,4 +1,4 @@
-Option is a build-in enum in Rust that represent a value that may or may not be present, allowing you to handle cases where a value is absent or invalid in a safe and explicit way.
+Option is a build-in enum in Rust that represent an optional value: every Option is either Some and contains a value, or None, and does not.
 
 Option is an enum with two variants: Some(T) and None.
 When a value exist, it is Some(value), and when it doesn't, it's None.
@@ -9,9 +9,8 @@ enum Option<T> {
 When you create an Option, you can either wrap a value of type T in Some(T) or create a None value.
 The Option enum is implemented using a simple struct that contains a discriminant (a small interger that indicates which variant is present) and a payload (the actual value, if present).
 
-You use Option when something might or might not exist.
+use when something might or might not exist.
 it allows you to explicitly handle cases where a value is absent or invalid, preventing common errors like null pointer dereferences or unexpected behavior.
-you can write safer and more robust code that is less prone to errors.
 
 We can get the value inside an Option with a method called .unwrap()
 You only want to .unwrap() if you are sure.

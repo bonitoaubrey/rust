@@ -1,4 +1,0 @@
-The simples form of control flow is if followed by {}.
-
-Rust will execute the code inside {} if the condition is true and will do nothing otherwise.
-You can use else if and else to give you more control.

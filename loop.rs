@@ -1,4 +1,4 @@
-loop is a way to repeat a set of instructions over and over again in a program.
+loop is a control flow construct that enable unconditional repetition of a sequence of statement for an indefined number of iteration.
 
 loops help us avoid writing the same code over and over again.
 It makes our program shorter, easier to read, and less prone to mistakes.

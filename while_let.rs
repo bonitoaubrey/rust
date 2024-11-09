@@ -15,6 +15,7 @@ Without while let, yo would have to write a full loop with a match statement ins
 
 //while let
 let mut v = vec![1, 2, 3, 4, 5];
+
 while let Some(x) = v.pop() {
     println!("{}", x);
 }
