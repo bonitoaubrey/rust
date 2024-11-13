@@ -5,6 +5,8 @@ When you define a generic fuction or struct, Rust creates a template for the cod
 The compiler generates specialized versions of the code for each type used, a process called "monomorphization".
 Rust turns generic functions into concrete ones at compile time.
     There's nothing extra that happens at run time.
+If you have one variable of type T and another variable of type T, they must be the same type.
+If you have one variable of type T and another variable of type U, they can be different types, but they can also be the same.
 
 Generics allow you to write code that can be reused with multiple types, reducing code duplication and improving maintanability.
 enable you to write code that can work with different types, making it easier to adapt to changing requirements.

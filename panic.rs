@@ -1,4 +1,4 @@
-A panic in Rust is a way to indicate that a program has encountered an unrecoverable error or an unexpected situation, causing the program to abort and unwind the call stack.
+A panic in Rust is a type of control flow mechanism that unwinds the call stack and terminates the current thread, triggered by an unrecoverable error or an assertion failure, allowing the program to propagete error information and clean up resources.
 
 When a panic occurs, Rust's runtime environment is notified, and it begins to unwind the call stack, calling the drop method on each value that was allocated on the stack.
 This process continues until the panic is caught by a catch_unwind function or until the program exits.

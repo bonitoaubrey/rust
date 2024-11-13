@@ -2,7 +2,7 @@ An array in Rust is a homogeneous, contiguous, and fixed-size collection of valu
 
 When you create an array, Rust allocate a single block of memory to store all the elements, and when you access as element, Rust performs a bounds check to ensure that the index is within the valid range.
 When you access an array element, Rust performs a bounds check to ensure the index is within the valid range.
-arrays have type [type; number of elements]
+Arrays have type [type; number of elements]
 you can't add or remove items or change the type of the items inside.
 
 representing a fixed-size collection of values of the same type
