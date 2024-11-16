@@ -3,8 +3,6 @@ In Rust, char is a primitive type that represents a single Unicode scalar value,
 char is represented as a 32-bit unsigned integer, using the UTF-32 encoding scheme.
 That means that each char value is a unique 32-bit code point, which can represent any Unicode character, including letters, digits, symbols, and emojis.
 When you create a char value, Rust store it as a 32-bit integer, and when you use it, Rust performs the necessary Unicode-related operations, such as encoding and decoding, to ensure that the character is represented correctly.
-Every char has a number.
-The list of numbers is called Unicode.
 The characters used most (called ASCII) are represented by numbers less than 256, and they can fit into a u8.
     This means that Rust can safely "cast" a u8 into a char, using as.
 All chars use 4 bytes of memory, since 4 bytes are enough to hold any kind of character.
@@ -13,7 +11,6 @@ Used when we need to work with single characters in a string or data.
 representing single Unicode character.
 
 We create a char variable and assign it a value, such as 'a', which represents a single character.
-char is always one character and uses ' ' (single quotes).
 let c = 'a'; // creates a char value representing the letter 'a'
 println!("{}", c); // prints 'a'
 

@@ -4,6 +4,7 @@ A collection in Rust is essentially a container that holds multiple elements, an
 Collections in Rust are implemented using various data structures and algorithms, such as dynamic array, linked lists, and hash tables, which are designed to optimize memory usage, insertion, deletion, and searching operations.
 Therse data structures are implemented using Rust's ownership and borrowing system, which ensures memory safaty and prevents common errors like null pointer dereference.
 
+used when you have more than one value and want to hold them in a single place with some sort of order.
 allow us to work with multiple values in a more efficent and organized way than working with individual variables.
 provide a way to efficiently store and manipulate large amounts of data, which is a common requirement in many applications.
 Without collections, you would have to manually manage memory and implement data structures, which would be error-prone and inefficient.

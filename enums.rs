@@ -1,4 +1,4 @@
-An enum in Rust is way to define a set of named values that have a specific meaning, allowing you to create a new type that can take on one of a limited number of possible values.
+An enum in Rust is a user-defined data type that allow us to select a value from list of related value.
 
 An enum is short for enumerations.
 When you define an enum, Rust creates a new type that can take on one of the values you specify.

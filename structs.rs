@@ -9,6 +9,7 @@ There are three types of structs.
     The next type is a tuple struct, or an unnamed struct.
     The third type is the named struct, which is the most common struct.
 
+can create your own type.
 structs are necessary because they allow you to organize data in a way that makes sence for your program, making it easier to write, read, and maintain.
 let create complex data types that can be used throughout you program, reducing code duplication and improving code reusability.
 
@@ -16,6 +17,7 @@ To use a struct, you define it using the struct keyword, followed by the name of
 The name of a struct should be in UpperCamelCase.
 You can then create instances of the struct using the struct name and field values.
 You separate fields by commas in a named struct.
-It the field name and variable name are the same, you don't have to write both.
+If the field name and variable name are the same, you don't have to write both.
+You can access the fields of a struct using dot notation.
 
 enums are used to define a set of named values rather than a collection of fields.

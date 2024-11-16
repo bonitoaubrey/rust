@@ -1,4 +1,4 @@
-while let is a syntax sugar in Rust that allows you to combine pattern matching with a loop, making code more concise and expressive.
+while let is a control flow construct that combines a while loop with pattern matching, allowing the loop to continue executing as long as a value matches a specified pattern.
 
 while let is like a while loop for if let.
 When the Rust compiler encounters a while let statement, it desugars it into a loop with a match statement inside.

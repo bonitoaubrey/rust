@@ -1,4 +1,4 @@
-Borrowing in Rust is a mechanism off temporarily granting a reference to a value to another scope, while ensuring the value remains valid and unchanged, and enforcing rules to prevent multiple mutable references to the same value.
+Borrowing in Rust is a mechanism that allows a function or method to use a value owned by another part of the program without taking ownership of it.
 
 Borrowing is implemented using a consept called "lifetime" and "borrow checker".
 When a value if borrowed, the compiler creates a new reference to the value, which is valid for a specific lifetime.
