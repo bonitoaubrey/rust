@@ -1,4 +1,4 @@
-Methods in Rust is a block of code that is associated with a type, allowing you to perform actions on values of that type.
+Methods in Rust is a block of code that is associated with a type.
 
 There are two kinds of methods in an impl block:
     Methods - These take self in some form (&self, or &mut self or self). Regular methods use a . (a period).
@@ -11,3 +11,4 @@ When you use a method, Rust will dereference for you until it reaches the origin
 The . in a method is called the dot operator, and it does dereferencing for free.
 
 To write function for a struct or an enum, use the impl keyword and then a scope with {} (impl block) to write the function.
+value.method()

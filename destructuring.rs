@@ -1,4 +1,4 @@
-Destructuring is a syntax feature that allows to break down complex data structure, such as tuples, arrays, and structs, into their individual components, allowing you to bind them to separate variable.
+Destructuring is a syntax feature that allows to break down complex data structure into individual components.
 
 When you use destructuring, Rust creates a new scope for the individual components, and binds each component to a new variable.
 Destructuring in Rust works by pattern matching the structure of the data against a pattern, which specifies how to break down the data into its individual components.

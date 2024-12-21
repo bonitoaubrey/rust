@@ -1,4 +1,4 @@
-In Rust, a const is a value that is known at compile time and cannot be changed at runtime, allowing you to define constants that are guarnteed to remain the same throughout the execution of your program.
+A const is a name assigned to a value, that cannot be changed.
 
 When the Rust compiler encounters a const declaration, it evaluates the expression and replaces all occurences of the constant with its actual value.
 The value must be a constant expression that can be evaluated at compile time.

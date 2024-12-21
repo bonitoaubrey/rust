@@ -1,3 +1,5 @@
+The question mark operator (?) in Rust is a syntactic sugar for error propagation, which allows a function to return eartly with an error value if a precending computation results in an error.
+
 The ? operator is just short for a match.
 After anything that returns a Result, you can add ?
 
