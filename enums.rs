@@ -5,6 +5,7 @@ When you define an enum, Rust creates a new type that can take on one of the val
 The enum is represented as a single value that is stored in memory, which is usually an integer.
 Each variant of the enum is assigned a unique integer value, which is used to store the value in memory.
 If an enum doesn't contain any data, then its variants can be cast into an integer.
+If we hadn't chesen our own numbers, then Ruts would have started with 0 for each variant.
 enums can have associated values, which are values that are stored along with the enum variant.
 
 help prevent errors by ensuring that only valid values can be used.

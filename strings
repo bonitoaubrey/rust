@@ -7,3 +7,6 @@ Both &str and String are encoded with UTF-8.
 String is easy to grow, shrink, mutate and so on.
 
 A String owns its data, while a &str is a slice.
+
+str: a stack allocated UTF-8 string, which can be borrowed but cannot be moved or mutated.
+String: a heap allocated UTF-8 string, which can be borrowed and mutated.
